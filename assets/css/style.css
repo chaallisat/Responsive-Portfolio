@@ -1,0 +1,108 @@
+header{
+    overflow: hidden;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 100%;
+    position: initial;
+    border-style: none none solid none;
+    border-style: 10px;
+}
+.me{
+    background-color: #4aaaa5;
+    width: 240px;
+    text-align: center;
+    color: white;
+    float: left;
+}
+section{
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    display: inline-block;
+    margin: 48px 96px 0px 96px;
+}
+body{
+    background-color: #dddddd;
+}
+.container{
+    max-width: 960px;
+    width: auto;
+    max-height: 100%;
+    margin: auto;
+}
+.home{
+    background-color: #ffffff;
+    border: none;
+    color: #777777;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    
+}
+.portfolio{
+    background-color: #ffffff;
+    border: none;
+    color: #777777;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+.contact{
+    background-color: #ffffff;
+    border: none;
+    color: #777777;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+header a{
+    text-align: right;
+    padding: 35px;
+    text-decoration: none;
+    line-height: 25px;
+}
+.small{
+    max-width: 400px;
+    max-height: 300px;
+    height: auto;
+    padding: 25px 25px;
+    float: left;
+}
+.page{
+    font-size: 36px;
+    color: #4aaaa5;
+    padding: 0px 25px;
+}
+form{
+    padding: 24px;
+    max-width: 960px;
+    margin: auto;
+}
+input{
+    width: 90%;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 70px;
+}
+
+hr{
+    background-color: red;
+    width: 95%;
+}
+br{
+    line-height: 24px;
+}
+label{
+    line-height: 24px;
+    padding: 10px 0px 5px 0px;
+}
+footer{
+    background-color: #666666;
+    padding: 20px;
+    border-color: #4aaaa5;
+    border-top: 5px;
+    margin: 100px 0px 0px 0px;
+    position: static;
+}
