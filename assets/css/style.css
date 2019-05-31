@@ -7,54 +7,94 @@ header{
     border-style: none none solid none;
     border-style: 10px;
 }
-.me{
-    background-color: #4aaaa5;
-    width: 240px;
-    text-align: center;
-    color: white;
-    float: left;
-}
-section{
-    width: 960px;
-    background-color: #ffffff;
-    border-color: #dddddd;
-    display: inline-block;
-    margin: 48px 96px 0px 96px;
-}
+
 body{
     background-color: #dddddd;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    background: url("../images/concrete_seamless.png");
 }
+
+* {
+    box-sizing: border-box;
+}
+/* general */
+
 .container{
     max-width: 960px;
-    width: auto;
-    max-height: 100%;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
 }
-.home{
-    background-color: #ffffff;
-    border: none;
-    color: #777777;
-    font-size: 16px;
-    cursor: pointer;
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #dddddd;
+}
+
+h2,
+h3 {
+  font-size: 22px;
+}
+
+/* header */
+
+#master {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+#logo {
     float: left;
-    
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
 }
-.portfolio{
-    background-color: #ffffff;
-    border: none;
-    color: #777777;
-    font-size: 16px;
-    cursor: pointer;
+
+.main-section{
     float: left;
+    width: 100%;
+    max-width: 960px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 0 0 40px;
 }
-.contact{
-    background-color: #ffffff;
-    border: none;
-    color: #777777;
-    font-size: 16px;
-    cursor: pointer;
-    float: left;
-}
+
 header a{
     text-align: right;
     padding: 35px;
@@ -87,13 +127,7 @@ input[type=submit]{
     width: 70px;
 }
 
-hr{
-    background-color: red;
-    width: 95%;
-}
-br{
-    line-height: 24px;
-}
+
 label{
     line-height: 24px;
     padding: 10px 0px 5px 0px;
